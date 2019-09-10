@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>T-RexCicla</title>
+  <meta charset="utf-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+    	body{
+    		background-color:;
+    	}
+    </style>
+
+</head>
+<body>
+<!--inicio da barra de navegação-->
+<nav>
+    <div class="nav-wrapper orange darken-1">
+      <a href="index.html" class="brand-logo"><img src="LOGOSITE.png"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../4rs/4Rs.html">4R'S</a></li>
+         <li><a href="../dicas/dica.html">Você sabe?</a></li>
+        <li><a href="../quiz/quiz.html">Quiz</a></li>
+        <li><a href="mapaurbano.html">Mapa Urbano</a></li>
+        <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+        <li><a href="../login/login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../4rs/4Rs.html">4 R´s</a></li>
+     <li><a href="../dicas/dica.html">Você sabe?</a></li>
+    <li><a href="../quiz/quiz.html">Quiz</a></li>
+    <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+    <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+    <li><a href="../login/login.html">Login</a></li>
+  </ul>
+
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
+<!--final menu-->
+
+<!-- BARRA DE PESQUISA-->
+ 
+<!--final-->
+<br>
+<!--inicio conteudo S para celular m para tablet ou Pc-->
+  <div class="container">
+
+    <h2>Mapa Urbano</h2>
+
+<div class="maps">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63208.25587258368!2d-34.93935298271526!3d-8.048730065028005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sreciclagem!5e0!3m2!1spt-BR!2sbr!4v1558565410677!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<br>
+
+<!--botoes-->
+<div class="center" id="botoes">
+<a class="waves-effect waves-light btn-large orange darken-4">Áreas de preservação</a>
+<a class="waves-effect waves-light btn-large orange darken-4">Pontos de Coleta Seletiva</a>
+ </div>
+
+</div>
+  <br>
+<!--fim conteudo-->
+
+<!--inicio do rodape-->
+<footer class="page-footer indigo darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">T-RexCicla</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Nossas Páginas</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Prime Solutions
+            <a class="grey-text text-lighten-4 right" href="#!">Mais</a>
+            </div>
+          </div>
+        </footer>
+
+        <!--js do mapa-->
+				<script src="dream.js" charset="utf-8"></script>
+</body>
+</html>

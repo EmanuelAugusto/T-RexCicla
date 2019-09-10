@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>T-RexCicla</title>
+  <meta charset="utf-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+    	body{
+    		background-color: ;
+    	}
+
+      #result{
+        background-image: url(img/result.jpg);
+        border-radius: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+
+</head>
+<body>
+<!--inicio da barra de navegação-->
+
+<nav>
+    <div class="nav-wrapper orange darken-1">
+      <a href="../index.html" class="brand-logo"><img src="LOGOSITE.png"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../4rs/4Rs.html">4R'S</a></li>
+        <li><a href="../dicas/dica.html">Você sabe?</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+        <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+         <li><a href="../login/login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../4rs/4Rs.html">4 R´s</a></li>
+    <li><a href="../dicas/dica.html">Você sabe?</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+    <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+    <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+    <li><a href="../login/login.html">Login</a></li>
+  </ul>
+	  
+
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
+<!-- BARRA DE PESQUISA-->
+  
+<!--final-->
+<br>
+<!--inicio conteudo S para celular m para tablet ou Pc-->
+  <div class="container" id="quest">
+
+     <img class="responsive-img" src="img/quiz.jpg">
+
+    <div class="left-align white">
+
+      <!--perguntas-->
+
+      <p>Pergunta 01 - Todos os dias precisamos comer, mas precisamos prestar atenção no que estamos adquirindo e como vamos fazer o seu descarte. Para evitar acúmulo de lixo desnecessário, tanto em casa como nos aterros devemos:</p>
+
+      <!--inicio das alternativas-->
+
+       <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Adquirirmos mais produtos enlatados.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Dar preferência a alimentos mais saudáveis e que contenham menos embalagem</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>separar materiais de acordo com a cor da embalagem.</span>
+      </label>
+    </p>
+  </form>
+
+  <p>Pergunta 02 - O que não vai para o lixo reciclável?</p>
+
+    <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Papel-carbono, etiqueta adesiva, fita crepe, guardanapos, fotografias, filtro de cigarros, papéis sujos, papéis sanitários, copos de papel.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Papéis, Cadernos usados, Sacolas plásticas, Garrafas pets, Frascos de vidro, metais.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"  />
+        <span>guardanapos, fotografias, filtro de cigarros, Sacolas plásticas.
+</span>
+      </label>
+    </p>
+  </form>
+
+  <p>Pergunta 03 -  Você sabia que existem embalagens mistas? Não? Como você acha que deve ser a separação desses materiais?</p>
+
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Escolher embalagens mais simples, mas se não houver opção desmonte-a em parte e separe-a.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Separe por cores parecidas e descarte tudo junto.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"  />
+        <span>Descarte o material  de acordo com a matéria que predomina no objeto.</span>
+      </label>
+    </p>
+  </form>
+
+  <p>Pergunta 04 -  A reciclagem contribui para a…</p>
+
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Degradação dos lençóis freáticos pois contribui para a redução de chorume no solo.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>A diminuição do monopólio das empresas fabricantes.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"  />
+        <span>A reciclagem reduz, de forma importante, impacto sobre o meio ambiente: diminui as retiradas de matéria-prima da natureza, gera economia de água e energia e reduz a disposição inadequada do lixo.</span>
+      </label>
+    </p>
+  </form>
+
+  <p>Pergunta 05-  A preservação do meio ambiente começa em…</p>
+
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>A partir do governo e do vizinho.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>A partir de pequenas atitudes minhas diarias.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"  />
+        <span>Acabando com a exploração do meio ambiente.</span>
+      </label>
+    </p>
+  </form>
+
+  <p>Pergunta 06- O que são materiais recicláveis?</p>
+
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>É um material  reciclável  o lixo descartado  que pode sofrer  transformação de partes ou o seu todo.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>São materiais que servem somente para a indústria de construção civil.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio"  />
+        <span>São materiais usados na criação de gado.</span>
+      </label>
+    </p>
+  </form>
+
+
+ <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action" id="buttonSend">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+
+<!--fim questionário-->
+
+<br>
+
+<br>
+
+    </div>
+
+  </div>
+<!--fim conteudo-->
+<br>
+<br>
+<br>
+<footer class="page-footer indigo darken-4">
+          <div class="container">
+            <div class="row">
+               <div class="col l6 s12">
+                <h5 class="white-text">T-RexCicla</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Nossas Páginas</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Prime Solutions
+            <a class="grey-text text-lighten-4 right" href="#!">Mais</a>
+            </div>
+          </div>
+        </footer>
+				<script src="controller.js" charset="utf-8"></script>
+</body>
+</html>

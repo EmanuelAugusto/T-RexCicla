@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>T-RexCicla</title>
+  <meta charset="utf-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+      .responsive-img{
+        cursor: pointer;
+      }
+    </style>
+
+</head>
+<body>
+<!--inicio da barra de navegação-->
+
+<nav>
+    <div class="nav-wrapper orange darken-1">
+      <a href="../index.html" class="brand-logo"><img src="LOGOSITE.png"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../4rs/4Rs.html">4R'S</a></li>
+        <li><a href="dica.html">Você sabe?</a></li>
+        <li><a href="../quiz/quiz.html">Quiz</a></li>
+        <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+        <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+        <li><a href="../login/login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../4rs/4Rs.html">4 R´s</a></li>
+    <li><a href="dica.html">Você sabe?</a></li>
+    <li><a href="../quiz/quiz.html">Quiz</a></li>
+    <li><a href="../mapaUrb/mapaurbano.html">Mapa Urbano</a></li>
+    <li><a href="../quem/Quemsomos.html">Quem Somos</a></li>
+    <li><a href="../login/login.html">Login</a></li>
+  </ul>
+	  
+
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
+<!-- BARRA DE PESQUISA-->
+  
+<!--final-->
+<br>
+<!--inicio conteudo S para celular m para tablet ou Pc-->
+  <div class="container" id="game">
+    <div id="modaleaster" class="modal">
+    <div class="modal-content">
+      <h4><img class="responsive-img" src="img/star.gif" style="width: 100px; height: 110px;">Você achou a Dino pegada!</h4>
+      <p>Parabéns, contate nossos amigos da reciclagem para retirar o prêmio!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close5">Fechar</a>
+    </div>
+  </div>
+
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4><img class="responsive-img" id="easter1" src="img/dinoEaster.png">Que fome, ein? você comeu toda maçã!</h4>
+      <p>Estes materiais orgânicos podem servir para compostagem e fertilização do solo.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close">Fechar</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4><img class="responsive-img" src="img/dinoDica.png">Opps, Você quebrou o celular!</h4>
+      <p>Este celular deve ser descartado corretamente, existem diversos locais de descarte correto de lixo eletrônico.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close2">Fechar</a>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4><img class="responsive-img" src="img/dinoDica.png">Puxa que sede, você tomou toda água</h4>
+      <p>Você usou essa garrafa por alguns segundos e depois? Sabia que esta garrafa leva 450 anos para se decompor. Tente reciclá-la, faça artesantos, reutilizea e repense. </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close3">Fechar</a>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4><img class="responsive-img" src="img/dinoDica.png">Você tomou todo o refrigerante, e agora o que fazer com a latinha?</h4>
+      <p>Você usou esta por alguns segundos e depois? Sabia que esta latinha leva de 100 a 500 anos para se decompor. Tente reciclá-la, leve a um ponto de coleta, consulte nosso <a href="../mapaUrb/mapaurbano.html">mapa urbano</a>, faça artesantos, reutilize-a e repense. </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close4">Fechar</a>
+    </div>
+  </div>
+
+    <h4><img class="responsive-img" src="img/dinoDica.png">Ei, você sabe reciclar estes materiais? Não? Descubra...</h4>
+
+    <div class="center">
+
+<!--maçã-->
+    <img class="responsive-img col s3 m2" id="mac1" src="img/mac.png" style="width: 100px; height: 100px;">
+    <img class="responsive-img col s3 m2" id="mac2" src="img/mac2.png" style="display: none; width: 100px; height: 100px; ">
+    <img class="responsive-img col s3 m2" id="mac3" src="img/mac3.png" style="display: none; width: 100px; height:100px;">
+<!--lata-->
+
+ <img class="responsive-img col s3 m2" id="cell" src="img/cell1.png" style="width: 100px; height: 150px;">
+ <img class="responsive-img col s3 m2" id="cell2" src="img/cell2.png" style="display: none; width: 100px; height: 150px; ">
+
+ <!--garrafa-->
+
+ <img class="responsive-img col s3 m2" id="garr" src="img/garrafa2.png" style="width: 100px; height: 150px;">
+ <img class="responsive-img col s3 m2" id="garr2" src="img/garrafa.png" style="display: none; width: 100px; height: 150px; ">
+
+  <img class="responsive-img col s3 m2" id="lata" src="img/lata.png" style="width: 100px; height: 150px;">
+ <img class="responsive-img col s3 m2" id="lata2" src="img/lata2.png" style="display: none; width: 100px; height: 150px; ">
+</div>
+
+
+
+<br>
+<br>
+<!--fim conteudo-->
+<p style="font-size: 10px;">Para melhor experiência use fone de ouvido <img src="img/alert.png" style="width: 30px; height: 30px;"></p>
+</div>
+<footer class="page-footer indigo darken-4">
+          <div class="container">
+            <div class="row">
+               <div class="col l6 s12">
+                <h5 class="white-text">T-RexCicla</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Nossas Páginas</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Prime Solutions
+            <a class="grey-text text-lighten-4 right" href="#!">Mais</a>
+            </div>
+          </div>
+        </footer>
+				<script src="conttoller.js" charset="utf-8"></script>
+</body>
+</html>
